@@ -1,10 +1,6 @@
 <?php
 
-/*
- * Author:   Neuman Vong neuman@twilio.com
- * License:  http://creativecommons.org/licenses/MIT/ MIT
- * Link:     https://twilio-php.readthedocs.org/en/latest/
- */
+
 
 function Services_Twilio_autoload($className)
 {

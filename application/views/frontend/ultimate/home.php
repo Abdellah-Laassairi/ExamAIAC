@@ -22,7 +22,7 @@
         <div class="js-slide bg-img-hero-center" style="background-image: url(<?php echo base_url(); ?>uploads/frontend/slider/<?php echo $slider_images[$i]->image;?>);">
           <div class="text-center space-3">
             <h2 class="text-white font-weight-light mb-2"
-                data-scs-animation-in="fadeInUp" style="padding-top: 100px;">
+                data-scs-animation-in="fadeInUp" style="padding-top: 500px;">
               <?php echo $slider_images[$i]->title; ?>
             </h2>
 

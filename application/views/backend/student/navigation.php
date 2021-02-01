@@ -113,44 +113,7 @@
             </a>
         </li>
 
-        <!-- PAYMENT -->
-        <li class="<?php if ($page_name == 'invoice' || $page_name == 'pay_with_payumoney') echo 'active'; ?> ">
-            <a href="<?php echo site_url($account_type.'/invoice'); ?>">
-                <i class="entypo-credit-card"></i>
-                <span><?php echo get_phrase('payment'); ?></span>
-            </a>
-        </li>
-
-        <!-- LIBRARY -->
-        <li class="<?php if ($page_name == 'book' || $page_name == 'book_request') echo 'opened active';?> ">
-            <a href="#">
-                <i class="entypo-book"></i>
-                <span><?php echo get_phrase('library'); ?></span>
-            </a>
-            <ul>
-                <li class="<?php if ($page_name == 'book') echo 'active'; ?> ">
-                    <a href="<?php echo site_url($account_type.'/book'); ?>">
-                        <i class="entypo-dot"></i>
-                        <span><?php echo get_phrase('book_list'); ?></span>
-                    </a>
-                </li>
-                <li class="<?php if ($page_name == 'book_request') echo 'active'; ?> ">
-                    <a href="<?php echo site_url($account_type.'/book_request'); ?>">
-                        <i class="entypo-dot"></i>
-                        <span><?php echo get_phrase('my_book_requests'); ?></span>
-                    </a>
-                </li>
-            </ul>
-        </li>
-
-        <!-- TRANSPORT -->
-        <li class="<?php if ($page_name == 'transport') echo 'active'; ?> ">
-            <a href="<?php echo site_url($account_type.'/transport'); ?>">
-                <i class="entypo-location"></i>
-                <span><?php echo get_phrase('transport'); ?></span>
-            </a>
-        </li>
-
+        
         <!-- NOTICEBOARD -->
         <li class="<?php if ($page_name == 'noticeboard') echo 'active'; ?> ">
             <a href="<?php echo site_url($account_type.'/noticeboard'); ?>">

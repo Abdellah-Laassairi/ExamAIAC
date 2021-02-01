@@ -145,20 +145,7 @@
                         <span><?php echo get_phrase('parents'); ?></span>
                     </a>
                 </li>
-                <!-- librarian -->
-                <li class="<?php if ($page_name == 'librarian') echo 'active'; ?> ">
-                    <a href="<?php echo site_url('admin/librarian'); ?>">
-                        <i class="fa entypo-dot"></i>
-                        <span><?php echo get_phrase('librarian'); ?></span>
-                    </a>
-                </li>
-                <!-- accountant -->
-                <li class="<?php if ($page_name == 'accountant') echo 'active'; ?> ">
-                    <a href="<?php echo site_url('admin/accountant'); ?>">
-                        <i class="entypo-dot"></i>
-                        <span><?php echo get_phrase('accountant'); ?></span>
-                    </a>
-                </li>
+                
             </ul>
         </li>
 
@@ -349,49 +336,6 @@
 
         
 
-        <!-- PAYMENT -->
-        <!-- <li class="<?php //if ($page_name == 'invoice') echo 'active'; ?> ">
-            <a href="<?php //echo base_url(); ?>index.php?admin/invoice">
-                <i class="entypo-credit-card"></i>
-                <span><?php //echo get_phrase('payment'); ?></span>
-            </a>
-        </li> -->
-
-        <!-- ACCOUNTING -->
-        <li class="<?php
-        if ($page_name == 'income' ||
-                $page_name == 'expense' ||
-                    $page_name == 'expense_category' ||
-                        $page_name == 'student_payment')
-                            echo 'opened active';
-        ?> ">
-            <a href="#">
-                <i class="flaticon-statistics"></i>
-                <span><?php echo get_phrase('accounting'); ?></span>
-            </a>
-            <ul>
-                <li class="<?php if ($page_name == 'student_payment') echo 'active'; ?> ">
-                    <a href="<?php echo site_url('admin/student_payment'); ?>">
-                        <span><i class="entypo-dot"></i> <?php echo get_phrase('create_student_payment'); ?></span>
-                    </a>
-                </li>
-                <li class="<?php if ($page_name == 'income') echo 'active'; ?> ">
-                    <a href="<?php echo site_url('admin/income'); ?>">
-                        <span><i class="entypo-dot"></i> <?php echo get_phrase('student_payments'); ?></span>
-                    </a>
-                </li>
-                <li class="<?php if ($page_name == 'expense') echo 'active'; ?> ">
-                    <a href="<?php echo site_url('admin/expense'); ?>">
-                        <span><i class="entypo-dot"></i> <?php echo get_phrase('expense'); ?></span>
-                    </a>
-                </li>
-                <li class="<?php if ($page_name == 'expense_category') echo 'active'; ?> ">
-                    <a href="<?php echo site_url('admin/expense_category'); ?>">
-                        <span><i class="entypo-dot"></i> <?php echo get_phrase('expense_category'); ?></span>
-                    </a>
-                </li>
-            </ul>
-        </li>
 
         <!-- Manage back office -->
         <li class="<?php if ( $page_name == 'book' ||
@@ -482,11 +426,6 @@
                 <li class="<?php if ($page_name == 'manage_language') echo 'active'; ?> ">
                     <a href="<?php echo site_url('admin/manage_language'); ?>">
                         <span><i class="entypo-dot"></i> <?php echo get_phrase('language_settings'); ?></span>
-                    </a>
-                </li>
-                <li class="<?php if ($page_name == 'payment_settings') echo 'active'; ?> ">
-                    <a href="<?php echo site_url('admin/payment_settings'); ?>">
-                        <span><i class="entypo-dot"></i> <?php echo get_phrase('payment_settings'); ?></span>
                     </a>
                 </li>
                 <li class="<?php if ($page_name == 'smtp_settings') echo 'active'; ?> ">

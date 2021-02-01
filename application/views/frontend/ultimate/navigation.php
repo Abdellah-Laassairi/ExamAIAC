@@ -33,41 +33,7 @@
             <!-- End Responsive Toggle Button -->
           </div>
 
-          <!-- Navigation -->
-          <div id="navBar" class="collapse navbar-collapse u-header__navbar-collapse">
-            <ul class="navbar-nav u-header__navbar-nav">
-              <li class="nav-item u-header__nav-item <?php if($page_name == 'home') echo 'active';?>">
-                <a class="nav-link u-header__nav-link" 
-                  href="<?php echo site_url('home');?>">Home</a>
-              </li>
-              <li class="nav-item u-header__nav-item <?php if($page_name == 'noticeboard' || $page_name == 'notice_details') echo 'active';?>">
-                <a class="nav-link u-header__nav-link" 
-                  href="<?php echo site_url('home/noticeboard');?>">Noticeboard</a>
-              </li>
-              <li class="nav-item u-header__nav-item <?php if($page_name == 'event') echo 'active';?>">
-                <a class="nav-link u-header__nav-link " 
-                  href="<?php echo site_url('home/events');?>">Events</a>
-              </li>
-              <li class="nav-item u-header__nav-item <?php if($page_name == 'teacher') echo 'active';?>">
-                <a class="nav-link u-header__nav-link" 
-                  href="<?php echo site_url('home/teachers');?>">Teachers</a>
-              </li>
-              <li class="nav-item u-header__nav-item <?php if($page_name == 'gallery' || $page_name == 'gallery_view') echo 'active';?>">
-                <a class="nav-link u-header__nav-link" 
-                  href="<?php echo site_url('home/gallery');?>">Gallery</a>
-              </li>
-              <li class="nav-item u-header__nav-item <?php if($page_name == 'about') echo 'active';?>">
-                <a class="nav-link u-header__nav-link" 
-                  href="<?php echo site_url('home/about');?>">About</a>
-              </li>
-              <li class="nav-item u-header__nav-item <?php if($page_name == 'contact') echo 'active';?>">
-                <a class="nav-link u-header__nav-link" 
-                  href="<?php echo site_url('home/contact');?>">Contact</a>
-              </li>
-              
-            </ul>
-          </div>
-          <!-- End Navigation -->
+ 
 
         </nav>
         <!-- End Nav -->
